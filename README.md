@@ -4,6 +4,8 @@
 
 每次只激活一个风格（或按权重混合指定模块），未激活模块的设计公理、Design Token、特效规则完全隔离，杜绝「风格串味」。
 
+> **English edition available** → see [README.en.md](README.en.md)，英文版 skill 在仓库的 `en/` 目录。
+
 ## 风格模块
 
 | 编号 | 风格 | 关键词 |
@@ -58,19 +60,22 @@ git clone https://github.com/55kai12/multi-style-design-mind.git \
 ```
 multi-style-design-mind/
 ├── SKILL.md                      # 入口：调用协议、隔离规则、统一输出格式
-└── references/
-    └── styles/
-        ├── s1-apple-design.md    # 最完整：含材质决策树、Compose/Web 映射、自检清单
-        ├── s2-swiss-minimal.md
-        ├── s3-glassmorphism-web.md
-        ├── s4-neo-brutalism.md
-        ├── s5-cyber-hud.md
-        ├── s6-soft-neumorphism.md
-        ├── s7-ins-minimal.md
-        ├── s8-chinese-classic.md
-        ├── s9-p5r.md
-        ├── s10-minimalist.md
-        └── s11-european-elegance.md
+├── references/
+│   └── styles/
+│       ├── s1-apple-design.md    # 最完整：含材质决策树、Compose/Web 映射、自检清单
+│       ├── s2-swiss-minimal.md
+│       ├── s3-glassmorphism-web.md
+│       ├── s4-neo-brutalism.md
+│       ├── s5-cyber-hud.md
+│       ├── s6-soft-neumorphism.md
+│       ├── s7-ins-minimal.md
+│       ├── s8-chinese-classic.md
+│       ├── s9-p5r.md
+│       ├── s10-minimalist.md
+│       └── s11-european-elegance.md
+└── en/                           # 英文版（完整 skill）
+    ├── SKILL.md
+    └── references/styles/…       # 11 个英文风格模块
 ```
 
 ## License
